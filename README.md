@@ -73,6 +73,23 @@ Host: localhost:5000
 }
 ```
 
+### Not found
+
+#### Request
+
+```
+[GET, POST] /not_found HTTP/1.1
+Host: localhost:5000
+```
+
+#### Error handling
+```json
+404 NOT FOUND
+{
+  "error": "route not found"
+}
+```
+
 ## VSCode
 
 #### Install extension Python 0.6.0 from Don Jayamanne
