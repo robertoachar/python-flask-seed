@@ -1,0 +1,28 @@
+{
+  "name": "python-flask-seed",
+  "version": "1.0.0",
+  "description": "A python with flask seed project.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/python-flask-seed#readme",
+  "keywords": [
+    "python",
+    "python-3-5",
+    "flask",
+    "seed"
+  ],
+  "scripts": {
+    "start": "python -m python_flask_seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/python-flask-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/python-flask-seed/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true,
+  "license": "MIT"
+}
