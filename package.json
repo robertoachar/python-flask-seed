@@ -1,14 +1,17 @@
 {
   "name": "python-flask-seed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A python with flask seed project.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/python-flask-seed#readme",
   "keywords": [
+    "flask",
+    "mocha",
     "python",
     "python-3-5",
-    "flask",
-    "seed"
+    "seed",
+    "should",
+    "supertest"
   ],
   "scripts": {
     "start": "python -m python_flask_seed",
