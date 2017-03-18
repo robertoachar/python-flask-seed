@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "start": "python -m python_flask_seed",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,11 @@
     "url": "https://github.com/robertoachar/python-flask-seed/issues"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "should": "11.2.1",
+    "supertest": "3.0.0"
+  },
   "private": true,
   "license": "MIT"
 }
