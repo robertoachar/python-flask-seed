@@ -90,6 +90,18 @@ Host: localhost:5000
 }
 ```
 
+## Tests
+
+Install dependencies
+```bash
+$ npm install
+```
+
+Run tests
+```bash
+$ npm test
+```
+
 ## VSCode
 
 #### Install extension Python 0.6.0 from Don Jayamanne
