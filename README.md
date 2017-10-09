@@ -1,43 +1,49 @@
 # Python Flask Seed
-A python with flask seed project.
 
-## Dependencies
+[![License][license-badge]][license-url]
 
-Install Python 3.5.x (x64)  
+> A python with flask seed project.
+
+# Dependencies
+
+* Install Python 3.5.x (x64)  
 [https://www.python.org/downloads/release/python-353/](https://www.python.org/downloads/release/python-353/)
 
-Install flask
+* Install flask
+
 ```bash
-$ pip install flask
+$ pip3 install flask
 ```
 
-## Quick Start
+# Development
 
 ```bash
-# Clone the repository
+# clone the repository
 $ git clone https://github.com/robertoachar/python-flask-seed.git
 
-# Change the directory
+# change the directory
 $ cd python-flask-seed
 
-# Run
-$ python -m python_flask_seed
+# run
+$ python3 -m python_flask_seed
 
-# Output from flask
+# output from flask
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ```
 
-## Usage
+# Usage
 
-### Hello
+## Hello
 
-#### Request
+### Request
+
 ```json
 GET / HTTP/1.1
 Host: localhost:5000
 ```
 
-#### Response
+### Response
+
 ```json
 200 OK
 {
@@ -45,9 +51,10 @@ Host: localhost:5000
 }
 ```
 
-### Welcome
+## Welcome
 
-#### Request
+### Request
+
 ```json
 POST /welcome HTTP/1.1
 Host: localhost:5000
@@ -57,7 +64,8 @@ Host: localhost:5000
 }
 ```
 
-#### Response
+### Response
+
 ```json
 200 OK
 {
@@ -65,7 +73,8 @@ Host: localhost:5000
 }
 ```
 
-#### Error handling
+### Error handling
+
 ```json
 400 BAD REQUEST
 {
@@ -73,16 +82,17 @@ Host: localhost:5000
 }
 ```
 
-### Not found
+## Not found
 
-#### Request
+### Request
 
 ```
 [GET, POST] /not_found HTTP/1.1
 Host: localhost:5000
 ```
 
-#### Error handling
+### Error handling
+
 ```json
 404 NOT FOUND
 {
@@ -93,33 +103,36 @@ Host: localhost:5000
 ## Tests
 
 Install dependencies
+
 ```bash
 $ npm install
 ```
 
 Run tests
+
 ```bash
 $ npm test
 ```
 
-## VSCode
+# VSCode
 
-#### Install extension Python 0.6.0 from Don Jayamanne
+## Install extension Python 0.7.0 from Don Jayamanne
+
 ```
 ext install python
 ```
 
-#### Install extension dependencies
+### Install extension dependencies
 
 ```bash
-# Install autopep8
+# install autopep8
 $ pip install autopep8
 
-# Install pylint
+# install pylint
 $ pip install pylint
 ```
 
-#### Set python path
+### Set python path
 
 File > Preferences > Settings > User Settings
 ```json
@@ -128,6 +141,13 @@ File > Preferences > Settings > User Settings
 }
 ```
 
-## Author
+# Author
 
-Roberto Achar
+[Roberto Achar](https://twitter.com/robertoachar)
+
+# License
+
+[MIT](https://github.com/robertoachar/smtc-node-now/blob/master/LICENSE)
+
+[license-badge]: https://img.shields.io/github/license/robertoachar/smtc-node-now.svg
+[license-url]: https://opensource.org/licenses/MIT
